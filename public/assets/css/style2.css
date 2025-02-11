@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+
+.navbar .nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #343434 !important;
+}
+
+.navbar .nav-item .nav-link.active {
+  color: #f4732a !important;
+  font-weight: 500;
+}
+
+/* Booking form */
+
+.b-form .membership-form form select {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid rgba(238, 238, 238, 0.2);
+  height: 50px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.b-form .membership-form form option {
+  color: black;
+  padding: 10px;
+}
+
+.b-form.two i {
+  background-color: #fff;
+  color: #f4732a;
+  padding: 7px 8px;
+  border-radius: 50%;
+}
+
+.b-form.two h6 {
+  color: #fff;
+  margin: auto;
+}
+
+.b-form.two span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.new-user-form {
+  width: 80%;
+}
+
+label {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* user profile */
+
+.user-profile {
+  font-family: "poppins", sans-serif;
+}
+
+.user-profile ul li {
+  list-style-type: none;
+  line-height: 2;
+  text-align: left;
+}
+
+.user-profile ul li a.active {
+  background-color: #344e41;
+}
+
+.user-profile ul li a {
+  padding: 5px 20px 5px 20px;
+  margin-top: 10px;
+  color: #343434;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.user-profile ul li a.active,
+.user-profile ul li a.active i {
+  color: #fff;
+}
+
+.user-profile .user-img img {
+  background-color: #f4732a;
+  border-radius: 50%;
+}
+
+.user-profile .user-name span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-profile .user-mobile span {
+  font-weight: 500;
+}
+
+.info-cnt.b-info p {
+  color: #414141 !important;
+  font-size: 16px;
+}
+
+/* booking details modal */
+
+.modal .modal-header h5 {
+  font-family: playfair;
+  font-weight: 700;
+  color: #344e41;
+  font-size: 20px;
+}
+
+/* edit profile */
+
+.contact-form input {
+  font-family: "poppins", sans-serif !important;
+}
+
+.contact-form.edit-profile .user-img {
+  position: relative;
+}
+
+.contact-form .user-img p i {
+  position: absolute;
+  bottom: 0;
+  left: 51%;
+  color: #706f6f;
+}
+
+/* Admin Dashboard */
+.admin-home {
+  margin-top: 50px;
+}
+
+.admin-sidebar i {
+  color: #344e41 !important;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.admin-sidebar .blog-post a {
+  color: #343434;
+  font-family: "playfair";
+  width: 100%;
+  transition: all 0.1s;
+  padding: 10px 20px;
+}
+
+.admin-sidebar .blog-post a.active {
+  background-color: #344e41;
+  color: #fff !important;
+}
+
+.manage-categories h4,
+.manage-services h4,
+.user-details h4,
+.booking-details h4,
+.manage-slots h4,
+.manage-court h4 {
+  font-family: playfair;
+  color: #343434;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.manage-services img {
+  width: 50px;
+  height: auto;
+}
+
+.contact-form.admin-form {
+  background-color: transparent;
+}
+
+.contact-form.admin-form .user-img {
+  position: relative;
+  border-radius: 50%;
+  width: fit-content;
+  margin: auto;
+  padding: 17px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media only screen and (max-width: 576px) {
+  .admin-home {
+    margin-top: 0px;
+  }
+
+  .single-information.admin {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .new-user-form {
+    width: 100%;
+  }
+
+  .new-user-form img {
+    display: none;
+  }
+
+  .navbar .btn-block {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .manage-categories h4,
+  .manage-services h4,
+  .user-details h4,
+  .booking-details h4,
+  .manage-slots h4,
+  .manage-court h4 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+}
+
+.icon-edit i {
+  background: #344e41;
+  border-radius: 50%;
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.icon-delete i {
+  background: #dc3545;
+  border-radius: 50%;
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.text-one {
+  color: #344e41;
+}
+
+.bg-one {
+  background-color: #344e41;
+}
+
+input[type="date"],
+input[type="time"] {
+  position: relative;
+  padding: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+}
+
+input[type="date"]:before {
+  color: transparent;
+  background: none;
+  display: block;
+  font-family: "FontAwesome";
+  font-size: large;
+  margin-right: 20px;
+  content: "\f073";
+  /* This is the calendar icon in FontAwesome */
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 6px;
+  color: #ffffff;
+}
+input[type="time"]:before {
+  color: transparent;
+  background: none;
+  display: block;
+  font-family: "FontAwesome";
+  font-size: large;
+  margin-right: 20px;
+  content: "\f017";
+  /* This is the calendar icon in FontAwesome */
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 6px;
+  color: #ffffff;
+}
